@@ -12,4 +12,5 @@
   <content>Catalog.ВКМ_Специалисты</content>
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>HTTPService.ТелеграмБот</content>
 </mdclass:Subsystem>

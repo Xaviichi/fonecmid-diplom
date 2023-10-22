@@ -15,12 +15,13 @@
       <value>Ping</value>
     </synonym>
     <template>/ping</template>
-    <methods uuid="0821caa4-e135-4eef-8c63-064873ebdaf7" handler="МетодPing">
+    <methods uuid="ce0dc104-04af-4b15-b27f-bbaad6ff9dd5">
       <name>Ping</name>
       <synonym>
         <key>ru</key>
         <value>Ping</value>
       </synonym>
+      <handler>PingPing</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>
