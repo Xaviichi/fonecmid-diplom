@@ -24,4 +24,21 @@
       <handler>PingPing</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="90551abc-0b75-40f4-861a-93463757f386">
+    <name>Send</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send</value>
+    </synonym>
+    <template>/send</template>
+    <methods uuid="302e6402-0dce-460e-8dbf-14918dc0cb96">
+      <name>PostSend</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post send</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SendPostSend</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
