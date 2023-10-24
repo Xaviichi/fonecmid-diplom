@@ -14,4 +14,8 @@
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>HTTPService.ТелеграмБот</content>
   <content>Document.ВКМ_ВходящийHTTPЗапрос</content>
+  <content>Catalog.ВКМ_УчетныеЗаписиТелеграм</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_СекретТелеграмБота</content>
 </mdclass:Subsystem>

@@ -84,6 +84,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="37b3b52b-5765-41a8-aeba-11e00fb2ed67">
+    <name>ТелоОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f05b0c0c-4d51-413a-9b1d-9cd40d87bd89">
     <name>ФормаДокумента</name>
     <synonym>

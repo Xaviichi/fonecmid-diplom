@@ -4,56 +4,17 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.УправлениеITФирмой</name>
-		<right>
-			<name>SaveUserData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиента</name>
 		<right>
-			<name>View</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveClearDeletionMark</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -65,15 +26,31 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -85,31 +62,54 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistory</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
+			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>ViewDataHistory</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Configuration.УправлениеITФирмой</name>
 		<right>
-			<name>Insert</name>
+			<name>ThinClient</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractivePosting</name>
+			<name>WebClient</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractivePostingRegular</name>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 	</object>
