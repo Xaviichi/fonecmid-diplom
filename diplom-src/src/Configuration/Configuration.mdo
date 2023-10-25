@@ -575,6 +575,7 @@
   <roles>Role.ЧтениеВКМ_ОбслуживаниеКлиента</roles>
   <roles>Role.ДобавлениеИзменениеВКМ_ОбслуживаниеКлиента</roles>
   <roles>Role.ИспользованиеБотов</roles>
+  <roles>Role.ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -821,6 +822,7 @@
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВКМ_ОбщегоНазначенияHTTP</commonModules>
   <commonModules>CommonModule.ВКМ_ПолезныеФункции</commonModules>
+  <commonModules>CommonModule.ВКМ_ОбработкаФоновыхЗаданий</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1238,6 +1240,7 @@
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
