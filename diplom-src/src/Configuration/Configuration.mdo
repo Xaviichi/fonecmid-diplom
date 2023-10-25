@@ -820,6 +820,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВКМ_ОбщегоНазначенияHTTP</commonModules>
+  <commonModules>CommonModule.ВКМ_ПолезныеФункции</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
