@@ -1164,6 +1164,7 @@
   <documents>Document.ВКМ_ОбслуживаниеКлиента</documents>
   <documents>Document.ВКМ_ВходящийHTTPЗапрос</documents>
   <documents>Document.ВКМ_НачислениеЗарплаты</documents>
+  <documents>Document.ВКМ_НачислениеФиксированнойПремии</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыПериода</enums>
@@ -1320,10 +1321,12 @@
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.Удержания</calculationRegisters>
 </mdclass:Configuration>

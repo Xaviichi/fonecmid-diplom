@@ -64,8 +64,10 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.Удержания</registerRecords>
   <registerRecords>CalculationRegister.ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ОсновныеНачисления</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="05537808-6997-4099-974a-9b42e7c939c7">

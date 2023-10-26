@@ -164,8 +164,8 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ТаблицаДоговор</name>
       <id>17</id>
