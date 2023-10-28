@@ -33,4 +33,5 @@
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>CalculationRegister.Удержания</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
 </mdclass:Subsystem>

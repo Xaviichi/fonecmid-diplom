@@ -572,10 +572,14 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
-  <roles>Role.ЧтениеВКМ_ОбслуживаниеКлиента</roles>
-  <roles>Role.ДобавлениеИзменениеВКМ_ОбслуживаниеКлиента</roles>
-  <roles>Role.ИспользованиеБотов</roles>
-  <roles>Role.ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
+  <roles>Role.ВКМ_ЧтениеОбслуживаниеКлиента</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеОбслуживаниеКлиента</roles>
+  <roles>Role.ВКМ_ИспользованиеБотов</roles>
+  <roles>Role.ВКМ_ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеНачисленияЗарплаты</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеВыплатыЗарплаты</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеНачисленияФиксированнойПремии</roles>
+  <roles>Role.ВКМ_ДобавлениеИзменениеГрафиковОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
