@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64d6cd9c-eb5a-4372-877a-535e0c063308">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="589df817-dfb3-431f-aa5b-367177a0c1ba">
   <producedTypes>
-    <selectionType typeId="d81309d5-cd31-40f2-9f6e-54eefccbac58" valueTypeId="90b10fad-aebf-4aed-8295-47be4b128ae7"/>
-    <listType typeId="30754c60-8a35-40aa-9057-190a5628b5ef" valueTypeId="83664953-9a2e-4ecf-9817-2d9668d5161c"/>
-    <managerType typeId="3048d892-2415-4d9f-992d-3d684c12489b" valueTypeId="d28a472d-1120-4db2-9b87-8f61b0e06d29"/>
-    <recordSetType typeId="c0017789-b185-421c-9f18-a03f154edf3c" valueTypeId="bc027128-b944-4abb-9892-a0ba2efedceb"/>
-    <recordKeyType typeId="2e3abc6b-ce6c-4d21-8fc7-a56521bb46a9" valueTypeId="4ed7f8d8-4051-464f-ad52-490f155536f5"/>
-    <recordType typeId="74413eea-03dc-4eef-ab13-4d5fd0797f3f" valueTypeId="0f15acdf-e511-489d-967a-21d6f3ff851c"/>
-    <recordManagerType typeId="e842baa5-c908-42ff-90d8-2c17702a59e2" valueTypeId="d257274f-61c6-453d-8eb6-5412fd329390"/>
+    <selectionType typeId="fd7b7111-292a-47e0-8be9-fe487825724f" valueTypeId="ae8c6649-c31f-4644-b175-884099e8a37f"/>
+    <listType typeId="6a1dcab8-4287-4b04-9d7f-d645e7d01d60" valueTypeId="ec5fbdbc-e250-495e-adc3-8a93600fbe3f"/>
+    <managerType typeId="39c89d93-d1e2-4ac0-a576-6b0ddca10338" valueTypeId="86e4fe55-0ff2-40eb-88a1-920b1c8ea15c"/>
+    <recordSetType typeId="cbef4a22-bcf2-4198-8aa5-9abb16479a5d" valueTypeId="0268fe23-5527-4443-9771-bd9666977b24"/>
+    <recordKeyType typeId="1c60def4-521a-449c-ae4c-f8e9b52e7236" valueTypeId="e51377d9-4e89-4af6-8953-ddf2d5749fd1"/>
+    <recordType typeId="9942f0f4-43d5-4967-878a-def386be534b" valueTypeId="d19734e3-ec07-4af8-83b5-76d05e0b8ebf"/>
+    <recordManagerType typeId="712b5c82-d8af-4dd4-b052-a70ca273647a" valueTypeId="6fdc3d4c-0051-45bb-9009-613569247f00"/>
   </producedTypes>
   <name>ВКМ_УсловияОплатыСотрудников</name>
   <synonym>
@@ -16,8 +16,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="cfb52d5c-c3c4-463e-bc94-5cc65b9c55dc">
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="93720632-4396-4c1f-9356-54ba1fa3a186">
     <name>Оклад</name>
     <synonym>
       <key>ru</key>
@@ -37,7 +40,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="b770bc21-f122-41c1-ad15-7d91777cba15">
+  <resources uuid="4686d037-f129-46a4-a308-7aa3c8818f49">
     <name>ПроцентОтРабот</name>
     <synonym>
       <key>ru</key>
@@ -46,7 +49,7 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>5</precision>
+        <precision>15</precision>
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
@@ -57,7 +60,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="8598257a-20e8-47c7-bded-d07411b3db67">
+  <dimensions uuid="38423375-e40c-4291-811d-d10abc43628c">
     <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
