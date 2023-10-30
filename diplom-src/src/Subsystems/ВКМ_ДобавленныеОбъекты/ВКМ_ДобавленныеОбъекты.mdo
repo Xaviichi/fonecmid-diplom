@@ -36,4 +36,5 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Report.ВКМ_ВыработкаСпециалиста</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>
