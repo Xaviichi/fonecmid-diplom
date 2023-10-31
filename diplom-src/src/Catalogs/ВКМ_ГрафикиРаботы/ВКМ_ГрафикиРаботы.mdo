@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752732ff-74d9-461f-9d5d-333890a0ba66">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752732ff-74d9-461f-9d5d-333890a0ba66">
   <producedTypes>
     <objectType typeId="f7052c7e-d572-4684-8626-df02547a11d0" valueTypeId="1d80791f-df6a-4bb7-8dbe-86112eab9311"/>
     <refType typeId="929fc254-295b-4a9e-a96c-4e3f92c279a4" valueTypeId="2343de0c-d12a-44ed-8cda-70a534b6f90b"/>
@@ -28,6 +28,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5ae85fa7-442b-41a4-b37d-ff62a7392db2">
+      <name>Пятидневка</name>
+      <description>Пятидневка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

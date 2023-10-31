@@ -188,6 +188,13 @@
     </standardAttributes>
   </standardTabularSections>
   <predefined>
+    <items id="792f1c8f-992e-44a1-8e81-2a19e6214c16">
+      <name>НДФЛ</name>
+      <description>НДФЛ</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
     <items id="76f2490f-99ae-493a-a347-50054b298c6c">
       <name>Штраф</name>
       <description>Штраф</description>
