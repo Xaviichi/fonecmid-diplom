@@ -21,7 +21,6 @@
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
   <content>ChartOfCalculationTypes.ДополнительныеНачисления</content>
-  <content>ChartOfCalculationTypes.Удержания</content>
   <content>CalculationRegister.ОсновныеНачисления</content>
   <content>CalculationRegister.ДополнительныеНачисления</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>
@@ -32,11 +31,12 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
-  <content>CalculationRegister.Удержания</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Report.ВКМ_ВыработкаСпециалиста</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
-  <content>Report.РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>CalculationRegister.Удержания</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
 </mdclass:Subsystem>

@@ -1227,7 +1227,7 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.ВКМ_ВыработкаСпециалиста</reports>
   <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
-  <reports>Report.РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасчетыССотрудниками</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1335,7 +1335,7 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.Удержания</calculationRegisters>

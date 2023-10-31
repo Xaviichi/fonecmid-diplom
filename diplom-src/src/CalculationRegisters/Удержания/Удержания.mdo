@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aa884f9-8eed-4abe-9ab8-4eb79fc5c3e3">
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eca2d52a-f3e4-46f5-bbbb-b9d1d48abe79">
   <producedTypes>
-    <selectionType typeId="52889aa9-16a5-454d-b729-9be904170653" valueTypeId="8b4003d0-4353-4a60-b089-5ae36b8dfbbf"/>
-    <listType typeId="95800421-754f-447b-a48d-4a683facd6d6" valueTypeId="17a8d648-a921-4c76-a36c-eb321545593d"/>
-    <managerType typeId="374b191f-3ce6-45ea-a643-16ca5dc7f6fb" valueTypeId="6d0a747c-e9ce-40aa-a3e9-08d2df8c4bb5"/>
-    <recordSetType typeId="b08d6bef-0a59-47f9-b5ba-38a073891206" valueTypeId="954c9c68-a191-45df-ad2b-19ff33952eff"/>
-    <recordKeyType typeId="cd07cc9f-b068-4270-b918-413954f15441" valueTypeId="ecd8908b-7eaa-4bac-b918-556aacacc032"/>
-    <recordType typeId="c946c7c4-6339-4b81-8f4f-29c0f6692479" valueTypeId="aac76ff8-893e-4961-b019-bcbf494edff0"/>
-    <recalcsType typeId="a760b4c3-f099-4869-ad05-04d61af14b44" valueTypeId="f8e923a0-767d-49f6-843e-7694199b9661"/>
+    <selectionType typeId="6cfe0fa8-95fe-45e0-ac16-8f9f8ebb57f1" valueTypeId="a747cea3-b805-4170-8033-42dc78938b51"/>
+    <listType typeId="d85e5c05-6a86-4e93-9692-b3c45f8ce1de" valueTypeId="10a349ae-3231-434a-996b-5508ec3bb7c2"/>
+    <managerType typeId="6d057795-35c1-440b-b617-0a98051b9446" valueTypeId="6bcb450d-b5f4-4d6c-be81-34ecb9d8bba1"/>
+    <recordSetType typeId="3db0aa56-a98d-490e-9972-126b8acec4fe" valueTypeId="c022cb0e-da1c-4af4-947d-929230522c02"/>
+    <recordKeyType typeId="44bd340d-0d41-4760-9485-e98af6d62759" valueTypeId="e6944740-f266-4843-bbb8-c4458af8abbe"/>
+    <recordType typeId="cc9b00af-5dd6-463c-b083-3379202c0a93" valueTypeId="4fc20216-3e1f-43e5-82b6-0b1919422d6f"/>
+    <recalcsType typeId="c2845ac3-0ec9-4a8d-9756-0b0f32ec3995" valueTypeId="178589c3-5d34-47ce-b6aa-417a580079ce"/>
   </producedTypes>
   <name>Удержания</name>
   <synonym>
@@ -16,9 +16,9 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
-  <chartOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartOfCalculationTypes>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="c8a171e5-2988-4ca8-afbc-05772bb6bdd6">
+  <resources uuid="ff569146-f3b4-4ba1-b1f4-17d67256ef56">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -29,27 +29,13 @@
       <numberQualifiers>
         <precision>15</precision>
         <scale>2</scale>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="8b22d8e3-aa26-4f9a-b017-af69ff217323">
-    <name>Сотрудник</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сотрудник</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ВКМ_Специалисты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </dimensions>
-  <dimensions uuid="3349cc59-478c-4ccd-ad17-dcfb9c002c04">
+  <dimensions uuid="8a3ad6b2-a442-4455-8bc2-f1f32282870f">
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>
@@ -57,6 +43,19 @@
     </synonym>
     <type>
       <types>CatalogRef.ВКМ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="a68dc55b-f307-4c25-ae62-98c6a26741e0">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Специалисты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

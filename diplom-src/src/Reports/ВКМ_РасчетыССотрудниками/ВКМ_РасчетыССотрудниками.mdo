@@ -4,13 +4,13 @@
     <objectType typeId="bc667548-93f2-4a93-8d54-76270c51fca3" valueTypeId="ba1ece24-8779-4c59-9b2b-b161ff067fb1"/>
     <managerType typeId="28dcee3b-524b-47de-8ea9-caa527caa963" valueTypeId="2a2d32c6-6e99-4405-9ae2-ecaa48687acd"/>
   </producedTypes>
-  <name>РасчетыССотрудниками</name>
+  <name>ВКМ_РасчетыССотрудниками</name>
   <synonym>
     <key>ru</key>
     <value>Расчеты с сотрудниками</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.РасчетыССотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ВКМ_РасчетыССотрудниками.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="d0b87061-e6c3-42c9-87bb-396daacd286d">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
