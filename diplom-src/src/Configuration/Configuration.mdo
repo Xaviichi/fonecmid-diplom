@@ -580,6 +580,10 @@
   <roles>Role.ВКМ_ДобавлениеИзменениеВыплатыЗарплаты</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеНачисленияФиксированнойПремии</roles>
   <roles>Role.ВКМ_ДобавлениеИзменениеГрафиковОтпусков</roles>
+  <roles>Role.ВКМ_РаботаСОтчетомВыработкаСпециалистов</roles>
+  <roles>Role.ВКМ_РаботаСОтчетомАнализВыставленныхАктов</roles>
+  <roles>Role.ВКМ_РаботаСОтчетомРасчетыССотрудниками</roles>
+  <roles>Role.ВКМ_РаботаСОтчетомРасходЗапланированныхОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</commonTemplates>
@@ -1228,6 +1232,7 @@
   <reports>Report.ВКМ_ВыработкаСпециалиста</reports>
   <reports>Report.ВКМ_АнализВыставленныхАктов</reports>
   <reports>Report.ВКМ_РасчетыССотрудниками</reports>
+  <reports>Report.ВКМ_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
@@ -1323,6 +1328,7 @@
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ВКМ_УсловияОплатыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ВКМ_ГрафикОтпусков</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>

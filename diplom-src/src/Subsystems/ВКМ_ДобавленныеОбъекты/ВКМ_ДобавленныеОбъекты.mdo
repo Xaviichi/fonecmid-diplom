@@ -39,4 +39,6 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>CalculationRegister.Удержания</content>
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>
