@@ -8,7 +8,7 @@
   <name>ВКМ_ТокенУправленияТелеграмБотом</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ токен управления телеграм ботом</value>
+    <value>Токен управления телеграм ботом</value>
   </synonym>
   <type>
     <types>String</types>

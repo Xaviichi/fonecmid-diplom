@@ -10,7 +10,7 @@
   <name>ВКМ_НачислениеЗарплаты</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ начисление зарплаты</value>
+    <value>Начисление зарплаты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ВКМ_НачислениеЗарплаты.StandardAttribute.Number</inputByString>

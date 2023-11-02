@@ -10,7 +10,7 @@
   <name>ВКМ_Специалисты</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ специалисты</value>
+    <value>Специалисты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВКМ_Специалисты.StandardAttribute.Code</inputByString>

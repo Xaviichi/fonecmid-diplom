@@ -10,7 +10,7 @@
   <name>ВКМ_УчетныеЗаписиТелеграм</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ учетные записи телеграм</value>
+    <value>Учетные записи телеграм</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВКМ_УчетныеЗаписиТелеграм.StandardAttribute.Description</inputByString>

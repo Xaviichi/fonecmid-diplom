@@ -8,7 +8,7 @@
   <name>ВКМ_СекретТелеграмБота</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ секрет телеграм бота</value>
+    <value>Секрет телеграм бота</value>
   </synonym>
   <type>
     <types>String</types>

@@ -10,7 +10,7 @@
   <name>ВКМ_УведомленияДляТелеграма</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ уведомления для телеграма</value>
+    <value>Уведомления для телеграма</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
