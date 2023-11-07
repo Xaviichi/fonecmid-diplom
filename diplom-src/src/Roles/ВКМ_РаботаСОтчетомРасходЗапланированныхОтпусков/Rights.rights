@@ -18385,7 +18385,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяНачалаРабот</name>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяНачалаРаботПлан</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -24523,7 +24523,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяОкончанияРабот</name>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяОкончанияРаботПлан</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

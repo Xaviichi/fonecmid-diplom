@@ -93,7 +93,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b22730f8-a55b-435b-a8d6-90f0e6f26232">
-    <name>ВремяНачалаРабот</name>
+    <name>ВремяНачалаРаботПлан</name>
     <synonym>
       <key>ru</key>
       <value>Время начала работ (план)</value>
@@ -111,7 +111,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f03010ad-799e-4e85-b54b-57b00d6d37d9">
-    <name>ВремяОкончанияРабот</name>
+    <name>ВремяОкончанияРаботПлан</name>
     <synonym>
       <key>ru</key>
       <value>Время окончания работ (план)</value>
@@ -152,9 +152,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>500</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

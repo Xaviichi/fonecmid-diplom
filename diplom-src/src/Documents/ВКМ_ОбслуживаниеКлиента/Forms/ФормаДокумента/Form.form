@@ -400,7 +400,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВремяНачалаРабот</segments>
+        <segments>Объект.ВремяНачалаРаботПлан</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВремяНачалаРаботРасширеннаяПодсказка</name>
@@ -450,7 +450,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВремяОкончанияРабот</segments>
+        <segments>Объект.ВремяОкончанияРаботПлан</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВремяОкончанияРаботРасширеннаяПодсказка</name>

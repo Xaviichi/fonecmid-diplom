@@ -44,6 +44,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -127,6 +133,7 @@
       <group>CommandGroup.Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВходящийHTTPЗапрос.StandardCommand.OpenList</commands>
@@ -159,6 +166,7 @@
       <group>CommandGroup.Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВходящийHTTPЗапрос.StandardCommand.OpenList</commands>
